@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public class SampleTest {
+import org.testng.annotations.Test;
+
+public class SampleTest {
+    @Test
+    public void greetTest(){
+        System.out.println("hello");
+    }
 }
